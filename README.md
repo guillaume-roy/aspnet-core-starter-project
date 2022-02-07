@@ -1,5 +1,7 @@
 # ASP.NET Core - Starter Project
 
+[![Actions Status](https://github.com/guillaume-roy/aspnet-core-starter-project/workflows/.NET/badge.svg)](https://github.com/guillaume-roy/aspnet-core-starter-project/actions)
+
 ASP.NET Core 6 starter project including cookie authentication, database access, hexagonal architecture, DDD & CQRS.
 
 Inspired by https://github.com/jasontaylordev/CleanArchitecture
