@@ -21,7 +21,7 @@ public static class DependencyInjection
         if (configuration.GetValue<bool>("Database:UseInMemoryDatabase"))
         {
             services.AddDbContext<ApplicationDbContext>(options => options
-                .UseInMemoryDatabase("PizzaDb")
+                .UseInMemoryDatabase("ApplicationDb")
                 .LogTo(message => Debug.WriteLine(message)));
         }
         // else
